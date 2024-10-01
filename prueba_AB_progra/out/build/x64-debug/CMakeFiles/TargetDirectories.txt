@@ -1,0 +1,5 @@
+C:/Users/danie/OneDrive/Documentos/GitHub/AB_programacion/prueba_AB_progra/out/build/x64-debug/CMakeFiles/edit_cache.dir
+C:/Users/danie/OneDrive/Documentos/GitHub/AB_programacion/prueba_AB_progra/out/build/x64-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/danie/OneDrive/Documentos/GitHub/AB_programacion/prueba_AB_progra/out/build/x64-debug/prueba_AB_progra/CMakeFiles/prueba_AB_progra.dir
+C:/Users/danie/OneDrive/Documentos/GitHub/AB_programacion/prueba_AB_progra/out/build/x64-debug/prueba_AB_progra/CMakeFiles/edit_cache.dir
+C:/Users/danie/OneDrive/Documentos/GitHub/AB_programacion/prueba_AB_progra/out/build/x64-debug/prueba_AB_progra/CMakeFiles/rebuild_cache.dir
