@@ -77,7 +77,7 @@ public:
 
 	void cancelarCita() {
 		cout << "Cita cancelada." << endl;
-		// Lógica para cancelar la cita.
+		
 	}
 
 	void modificarCita(string nuevaFecha, int nuevaPrioridad) {
