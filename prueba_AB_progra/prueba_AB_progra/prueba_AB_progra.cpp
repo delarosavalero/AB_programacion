@@ -58,3 +58,30 @@ public:
 		return disponibilidad;
 	}
 };
+
+class CitaMedica {
+private:
+	string fecha;
+	Paciente* paciente;
+	Medico* medico;
+	int prioridad;
+
+public:
+	CitaMedica(string fecha, Paciente* pac, Medico* med, int prio) : fecha(fecha), paciente(pac), medico(med), prioridad(prio) {}
+
+	void mostrarDetalles() {
+		cout << "Cita: " << fecha << ", Prioridad: " << prioridad << endl;
+		paciente->mostrarInformacion();
+		medico->mostrarInformacion();
+	}
+
+	void cancelarCita() {
+		cout << "Cita cancelada." << endl;
+		// Lógica para cancelar la cita.
+	}
+
+	void modificarCita(string nuevaFecha, int nuevaPrioridad) {
+		fecha = nuevaFecha;
+		prioridad = nuevaPrioridad;
+	}
+};
