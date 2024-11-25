@@ -36,3 +36,25 @@ public:
 	}
 };
 
+class Medico {
+private:
+	string nombre;
+	string especialidad;
+	string identificacion;
+	bool disponibilidad;
+
+public:
+	Medico(string nom, string esp, string id) : nombre(nom), especialidad(esp), identificacion(id), disponibilidad(true) {}
+
+	void asignarDisponibilidad(bool estado) {
+		disponibilidad = estado;
+	}
+
+	void mostrarInformacion() {
+		cout << "Nombre: " << nombre << ", Especialidad: " << especialidad << ", ID: " << identificacion << endl;
+	}
+
+	bool verificarDisponibilidad() {
+		return disponibilidad;
+	}
+};
