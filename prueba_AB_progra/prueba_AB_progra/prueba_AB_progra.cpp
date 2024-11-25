@@ -85,3 +85,57 @@ public:
 		prioridad = nuevaPrioridad;
 	}
 };
+
+class GestorHospital {
+private:
+	vector<Paciente> listaPacientes;
+	vector<Medico> listaMedicos;
+	vector<CitaMedica> listaCitas;
+
+public:
+	void registrarPaciente(string nombre, string id, string fecha) {
+		listaPacientes.push_back(Paciente(nombre, id, fecha));
+	}
+
+	void registrarMedico(string nombre, string especialidad, string id) {
+		listaMedicos.push_back(Medico(nombre, especialidad, id));
+	}
+
+	void programarCita(string fecha, string idPaciente, string idMedico, int prioridad) {
+		Paciente* paciente = nullptr;
+		Medico* medico = nullptr;
+		for (auto& p : listaPacientes) {
+			if (p.buscarPaciente(idPaciente)) {
+				paciente = &p;
+				break;
+			}
+		}
+		for (auto& m : listaMedicos) {
+			if (m.verificarDisponibilidad() && m.verificarDisponibilidad()) {
+				medico = &m;
+				break;
+			}
+		}
+		if (paciente && medico) {
+			listaCitas.push_back(CitaMedica(fecha, paciente, medico, prioridad));
+		}
+	}
+
+	void listarPacientes() {
+		for (auto& paciente : listaPacientes) {
+			paciente.mostrarInformacion();
+		}
+	}
+
+	void listarMedicos() {
+		for (auto& medico : listaMedicos) {
+			medico.mostrarInformacion();
+		}
+	}
+
+	void listarCitas() {
+		for (auto& cita : listaCitas) {
+			cita.mostrarDetalles();
+		}
+	}
+};
