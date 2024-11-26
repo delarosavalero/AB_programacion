@@ -2,7 +2,11 @@
   "ExpandedNodes": [
     "",
     "\\prueba_AB_progra",
-    "\\prueba_AB_progra\\prueba_AB_progra"
+    "\\prueba_AB_progra\\prueba_AB_progra",
+    "\\prueba_AB_progra\\prueba_AB_progra\\encabezado",
+    "\\prueba_AB_progra\\prueba_AB_progra\\main",
+    "\\prueba_AB_progra\\prueba_AB_progra\\rcs"
   ],
+  "SelectedNode": "\\prueba_AB_progra\\prueba_AB_progra\\rcs\\Medico.cpp",
   "PreviewInSolutionExplorer": false
 }
