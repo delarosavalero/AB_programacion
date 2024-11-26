@@ -19,12 +19,6 @@ public:
     void registrarPaciente(string nombre, string id, string fecha);
     void registrarMedico(string nombre, string especialidad, string id);
     void programarCita(string fecha, string idPaciente, string idMedico, int prioridad);
-    void listarPacientes() const;
-    void listarMedicos() const;
-    void listarCitas() const;
-
-    void guardarSistema() const;
-    void recuperarSistema();
 };
 
-#endif // G
+#endif 
