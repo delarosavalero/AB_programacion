@@ -17,6 +17,13 @@ private:
 
 public:
     Paciente(string nom, string id, string fecha);
+
+    void registrarHistorial(string evento);
+    void mostrarInformacion() const;
+    bool buscarPaciente(const string& criterio) const;
+
+    void guardarDatos(ofstream& outFile) const;
+    static Paciente recuperarDatos(ifstream& inFile);
 };
 
 #endif // PACIENTE_HPP

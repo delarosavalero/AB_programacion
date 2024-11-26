@@ -16,6 +16,13 @@ private:
 
 public:
     Medico(string nom, string esp, string id);
+
+    void asignarDisponibilidad(bool estado);
+    void mostrarInformacion() const;
+    bool verificarDisponibilidad() const;
+
+    void guardarDatos(ofstream& outFile) const;
+    static Medico recuperarDatos(ifstream& inFile);
 };
 
 #endif // MEDICO_HPP
