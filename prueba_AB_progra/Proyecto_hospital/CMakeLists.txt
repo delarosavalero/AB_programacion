@@ -1,17 +1,27 @@
-﻿# CMakeList.txt: archivo del proyecto de CMake de nivel superior, establezca la configuración global
-# e incluya los subproyectos aquí.
-#
-cmake_minimum_required (VERSION 3.8)
+﻿# CMake mínimo requerido
+cmake_minimum_required(VERSION 3.10)
 
-# Habilite Recarga activa para los compiladores de MSVC si se admiten.
-if (POLICY CMP0141)
-  cmake_policy(SET CMP0141 NEW)
-  set(CMAKE_MSVC_DEBUG_INFORMATION_FORMAT "$<IF:$<AND:$<C_COMPILER_ID:MSVC>,$<CXX_COMPILER_ID:MSVC>>,$<$<CONFIG:Debug,RelWithDebInfo>:EditAndContinue>,$<$<CONFIG:Debug,RelWithDebInfo>:ProgramDatabase>>")
-endif()
+# Nombre de tu proyecto
+project(ProyectoHospital)
 
-project ("prueba_AB_progra")
+# Establecer el estándar de C++
+set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD_REQUIRED True)
 
-# Incluya los subproyectos.
-add_subdirectory ("prueba_AB_progra")
+# Añadir la carpeta 'src' y 'include' como directorios de búsqueda
+include_directories(include)
+
+# Añadir los archivos fuente
+set(SOURCE_FILES
+    src/main.cpp
+    src/Paciente.cpp
+    src/Medico.cpp
+    src/CitaMedica.cpp
+    src/GestorHospital.cpp
+)
+
+# Crear el ejecutable final
+add_executable(prueba_AB_progra ${SOURCE_FILES})
+
 
 

@@ -4,7 +4,7 @@ CXX = g++
 CXXFLAGS = -std=c++11 -Wall
 
 # Definir los archivos fuente
-SRC = src/main.cpp src/Paciente.cpp src/Medico.cpp src/CitaMedica.cpp src/GestorHospital.cpp
+SRC = src/prueba_AB_progra.cpp src/Paciente.cpp src/Medico.cpp src/CitaMedica.cpp src/GestorHospital.cpp
 # Definir los archivos de objeto
 OBJ = $(SRC:.cpp=.o)
 # Definir el nombre del ejecutable
