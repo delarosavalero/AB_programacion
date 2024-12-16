@@ -15,6 +15,17 @@ bool Medico::verificarDisponibilidad() const {
     return disponibilidad;
 }
 
+void Medico::guardarDatos(ofstream& outFile) const {
+    outFile << nombre << "," << especialidad << "," << identificacion << "," << disponibilidad << endl;
+}
 
-
-
+Medico Medico::recuperarDatos(ifstream& inFile) {
+    string nombre, especialidad, id;
+    bool disponibilidad;
+    getline(inFile, nombre, ',');
+    getline(inFile, especialidad, ',');
+    getline(inFile, id, ',');
+    inFile >> disponibilidad;
+    inFile.ignore(); 
+    return Medico(nombre, especialidad, id);
+}

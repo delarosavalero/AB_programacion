@@ -18,4 +18,19 @@ void CitaMedica::modificarCita(string nuevaFecha, int nuevaPrioridad) {
     prioridad = nuevaPrioridad;
 }
 
+void CitaMedica::guardarDatos(ofstream& outFile) const {
+    outFile << fecha << "," << prioridad << endl;
+}
 
+CitaMedica CitaMedica::recuperarDatos(ifstream& inFile, vector<Paciente>& pacientes, vector<Medico>& medicos) {
+    string fecha;
+    int prioridad;
+    getline(inFile, fecha, ',');
+    inFile >> prioridad;
+    inFile.ignore(); 
+
+    Paciente* paciente = &pacientes[0]; 
+    Medico* medico = &medicos[0];        
+
+    return CitaMedica(fecha, paciente, medico, prioridad);
+}
