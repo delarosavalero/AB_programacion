@@ -2,11 +2,15 @@
   "ExpandedNodes": [
     "",
     "\\prueba_AB_progra",
-    "\\prueba_AB_progra\\prueba_AB_progra",
-    "\\prueba_AB_progra\\prueba_AB_progra\\encabezado",
-    "\\prueba_AB_progra\\prueba_AB_progra\\main",
-    "\\prueba_AB_progra\\prueba_AB_progra\\rcs"
+    "\\prueba_AB_progra\\out\\build\\x64-debug",
+    "\\prueba_AB_progra\\out\\build\\x64-debug\\CMakeFiles",
+    "\\prueba_AB_progra\\out\\build\\x64-debug\\prueba_AB_progra",
+    "\\prueba_AB_progra\\out\\build\\x64-debug\\prueba_AB_progra\\CMakeFiles",
+    "\\prueba_AB_progra\\out\\build\\x64-debug\\Testing",
+    "\\prueba_AB_progra\\Proyecto_hospital",
+    "\\prueba_AB_progra\\Proyecto_hospital\\bin",
+    "\\prueba_AB_progra\\Proyecto_hospital\\encabezado"
   ],
-  "SelectedNode": "\\prueba_AB_progra\\prueba_AB_progra\\rcs\\Medico.cpp",
+  "SelectedNode": "\\prueba_AB_progra\\out",
   "PreviewInSolutionExplorer": false
 }

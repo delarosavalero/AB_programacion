@@ -26,4 +26,4 @@ public:
     static Paciente recuperarDatos(ifstream& inFile);
 };
 
-#endif // PACIENTE_HPP
+#endif 

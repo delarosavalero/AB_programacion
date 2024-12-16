@@ -25,4 +25,4 @@ public:
     static CitaMedica recuperarDatos(ifstream& inFile, vector<Paciente>& pacientes, vector<Medico>& medicos);
 };
 
-#endif // CITAMEDICA_HPP
+#endif 

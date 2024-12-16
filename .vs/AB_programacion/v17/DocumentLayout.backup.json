@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\AB_programacion\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\AB_programacion\\prueba_AB_progra\\prueba_AB_progra\\prueba_AB_progra.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:prueba_AB_progra\\prueba_AB_progra\\prueba_AB_progra.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\AB_programacion\\prueba_AB_progra\\prueba_AB_progra\\rcs\\Paciente.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:prueba_AB_progra\\prueba_AB_progra\\rcs\\Paciente.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\AB_programacion\\prueba_AB_progra\\prueba_AB_progra\\rcs\\Medico.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:prueba_AB_progra\\prueba_AB_progra\\rcs\\Medico.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\AB_programacion\\prueba_AB_progra\\prueba_AB_progra\\rcs\\CitaMedica.cpp||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:prueba_AB_progra\\prueba_AB_progra\\rcs\\CitaMedica.cpp||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\AB_programacion\\prueba_AB_progra\\prueba_AB_progra\\main\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:prueba_AB_progra\\prueba_AB_progra\\main\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,15 +38,54 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "prueba_AB_progra.cpp",
-              "DocumentMoniker": "C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\AB_programacion\\prueba_AB_progra\\prueba_AB_progra\\prueba_AB_progra.cpp",
-              "RelativeDocumentMoniker": "prueba_AB_progra\\prueba_AB_progra\\prueba_AB_progra.cpp",
-              "ToolTip": "C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\AB_programacion\\prueba_AB_progra\\prueba_AB_progra\\prueba_AB_progra.cpp",
-              "RelativeToolTip": "prueba_AB_progra\\prueba_AB_progra\\prueba_AB_progra.cpp",
-              "ViewState": "AgIAAIIAAAAAAAAAAAAAAF4AAAAHAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\AB_programacion\\prueba_AB_progra\\prueba_AB_progra\\main\\main.cpp",
+              "RelativeDocumentMoniker": "prueba_AB_progra\\prueba_AB_progra\\main\\main.cpp",
+              "ToolTip": "C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\AB_programacion\\prueba_AB_progra\\prueba_AB_progra\\main\\main.cpp",
+              "RelativeToolTip": "prueba_AB_progra\\prueba_AB_progra\\main\\main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-25T19:17:36.049Z",
+              "WhenOpened": "2024-11-26T14:17:43.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CitaMedica.cpp",
+              "DocumentMoniker": "C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\AB_programacion\\prueba_AB_progra\\prueba_AB_progra\\rcs\\CitaMedica.cpp",
+              "RelativeDocumentMoniker": "prueba_AB_progra\\prueba_AB_progra\\rcs\\CitaMedica.cpp",
+              "ToolTip": "C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\AB_programacion\\prueba_AB_progra\\prueba_AB_progra\\rcs\\CitaMedica.cpp",
+              "RelativeToolTip": "prueba_AB_progra\\prueba_AB_progra\\rcs\\CitaMedica.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-26T14:33:21.963Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Medico.cpp",
+              "DocumentMoniker": "C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\AB_programacion\\prueba_AB_progra\\prueba_AB_progra\\rcs\\Medico.cpp",
+              "RelativeDocumentMoniker": "prueba_AB_progra\\prueba_AB_progra\\rcs\\Medico.cpp",
+              "ToolTip": "C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\AB_programacion\\prueba_AB_progra\\prueba_AB_progra\\rcs\\Medico.cpp",
+              "RelativeToolTip": "prueba_AB_progra\\prueba_AB_progra\\rcs\\Medico.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-26T14:32:28.901Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Paciente.cpp",
+              "DocumentMoniker": "C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\AB_programacion\\prueba_AB_progra\\prueba_AB_progra\\rcs\\Paciente.cpp",
+              "RelativeDocumentMoniker": "prueba_AB_progra\\prueba_AB_progra\\rcs\\Paciente.cpp",
+              "ToolTip": "C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\AB_programacion\\prueba_AB_progra\\prueba_AB_progra\\rcs\\Paciente.cpp",
+              "RelativeToolTip": "prueba_AB_progra\\prueba_AB_progra\\rcs\\Paciente.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-26T14:28:56.755Z",
               "EditorCaption": ""
             }
           ]
