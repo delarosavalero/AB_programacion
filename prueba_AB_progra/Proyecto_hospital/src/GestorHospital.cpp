@@ -68,20 +68,29 @@ void GestorHospital::guardarSistema() const {
 
 void GestorHospital::recuperarSistema() {
     ifstream pacienteFile("data/pacientes.txt");
-    while (!pacienteFile.eof()) {
-        listaPacientes.push_back(Paciente::recuperarDatos(pacienteFile));
+    while (pacienteFile.peek() != EOF) {
+        Paciente paciente = Paciente::recuperarDatos(pacienteFile);
+        if (!paciente.getNombre().empty()) {
+            listaPacientes.push_back(paciente);
+        }
     }
     pacienteFile.close();
 
     ifstream medicoFile("data/medicos.txt");
-    while (!medicoFile.eof()) {
-        listaMedicos.push_back(Medico::recuperarDatos(medicoFile));
+    while (medicoFile.peek() != EOF) {
+        Medico medico = Medico::recuperarDatos(medicoFile);
+        if (!medico.getNombre().empty()) {
+            listaMedico.push_back(maciente);
+        }
     }
     medicoFile.close();
 
     ifstream citaFile("data/citas.txt");
-    while (!citaFile.eof()) {
-        listaCitas.push_back(CitaMedica::recuperarDatos(citaFile, listaPacientes, listaMedicos));
+    while (citaFile.peek() != EOF) {
+        Cita cita = Cita::recuperarDatos(citaFile);
+        if (!cita.getNombre().empty()) {
+            listaCita.push_back(Cita);
+        }
     }
     citaFile.close();
 }

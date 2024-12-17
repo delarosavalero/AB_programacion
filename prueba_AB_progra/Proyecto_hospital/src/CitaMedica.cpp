@@ -29,8 +29,22 @@ CitaMedica CitaMedica::recuperarDatos(ifstream& inFile, vector<Paciente>& pacien
     inFile >> prioridad;
     inFile.ignore(); 
 
-    Paciente* paciente = &pacientes[0]; 
-    Medico* medico = &medicos[0];        
+    Paciente* paciente = nullptr; 
+    Medico* medico = nullptr;
+
+    if (!pacientes.empty()) {
+        paciente = &pacientes[0];
+    }
+    else {
+        cerr << "Error: No hay pacientes cargados." << endl;
+    }
+
+    if (!medicos.empty()) {
+        medico = &medicos[0];
+    }
+    else {
+        cerr << "Error: No hay medicos cargados." << endl;
+    }
 
     return CitaMedica(fecha, paciente, medico, prioridad);
 }

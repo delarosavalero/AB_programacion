@@ -36,7 +36,9 @@ Paciente Paciente::recuperarDatos(ifstream& inFile) {
     Paciente paciente(nombre, id, fecha);
     string evento;
     while (getline(inFile, evento)) {
-        paciente.registrarHistorial(evento);
+        if (!evento.empty()) {
+            paciente.registrarHistorial(evento);
+        }
     }
     return paciente;
 }
