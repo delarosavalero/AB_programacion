@@ -3,6 +3,10 @@
 Paciente::Paciente(string nom, string id, string fecha)
     : nombre(nom), identificacion(id), fechaIngreso(fecha) {}
 
+string Paciente::getNombre() const {
+    return nombre;
+}
+
 void Paciente::registrarHistorial(string evento) {
     historialClinico.push_back(evento);
 }

@@ -1,7 +1,16 @@
 #include "Medico.hpp"
 
+string Medico::getNombre() const
+{
+    return string();
+}
+
 Medico::Medico(string nom, string esp, string id)
     : nombre(nom), especialidad(esp), identificacion(id), disponibilidad(true) {}
+
+string Medico::getNombre() conts {
+    return nombre;
+}
 
 void Medico::asignarDisponibilidad(bool estado) {
     disponibilidad = estado;

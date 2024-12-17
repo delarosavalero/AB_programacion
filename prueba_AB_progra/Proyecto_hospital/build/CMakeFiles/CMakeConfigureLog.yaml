@@ -24,7 +24,7 @@ events:
       The output was:
       0
       Versi├│n de MSBuild 17.11.2+c078802d4 para .NET Framework
-      Compilaci├│n iniciada a las 17/12/2024 15:41:23.
+      Compilaci├│n iniciada a las 17/12/2024 21:18:13.
       
       Proyecto "C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\AB_programacion\\prueba_AB_progra\\Proyecto_hospital\\build\\CMakeFiles\\3.29.5-msvc4\\CompilerIdC\\CompilerIdC.vcxproj" en nodo 1 (destinos predeterminados).
       PrepareForBuild:
@@ -53,7 +53,7 @@ events:
           0 Advertencia(s)
           0 Errores
       
-      Tiempo transcurrido 00:00:03.24
+      Tiempo transcurrido 00:00:00.75
       
       
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -79,7 +79,7 @@ events:
       The output was:
       0
       Versi├│n de MSBuild 17.11.2+c078802d4 para .NET Framework
-      Compilaci├│n iniciada a las 17/12/2024 15:41:27.
+      Compilaci├│n iniciada a las 17/12/2024 21:18:14.
       
       Proyecto "C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\AB_programacion\\prueba_AB_progra\\Proyecto_hospital\\build\\CMakeFiles\\3.29.5-msvc4\\CompilerIdCXX\\CompilerIdCXX.vcxproj" en nodo 1 (destinos predeterminados).
       PrepareForBuild:
@@ -108,7 +108,7 @@ events:
           0 Advertencia(s)
           0 Errores
       
-      Tiempo transcurrido 00:00:02.27
+      Tiempo transcurrido 00:00:00.58
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -127,8 +127,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/Users/danie/OneDrive/Documentos/GitHub/AB_programacion/prueba_AB_progra/Proyecto_hospital/build/CMakeFiles/CMakeScratch/TryCompile-zahy0x"
-      binary: "C:/Users/danie/OneDrive/Documentos/GitHub/AB_programacion/prueba_AB_progra/Proyecto_hospital/build/CMakeFiles/CMakeScratch/TryCompile-zahy0x"
+      source: "C:/Users/danie/OneDrive/Documentos/GitHub/AB_programacion/prueba_AB_progra/Proyecto_hospital/build/CMakeFiles/CMakeScratch/TryCompile-2ncd7w"
+      binary: "C:/Users/danie/OneDrive/Documentos/GitHub/AB_programacion/prueba_AB_progra/Proyecto_hospital/build/CMakeFiles/CMakeScratch/TryCompile-2ncd7w"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -137,40 +137,40 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/danie/OneDrive/Documentos/GitHub/AB_programacion/prueba_AB_progra/Proyecto_hospital/build/CMakeFiles/CMakeScratch/TryCompile-zahy0x'
+        Change Dir: 'C:/Users/danie/OneDrive/Documentos/GitHub/AB_programacion/prueba_AB_progra/Proyecto_hospital/build/CMakeFiles/CMakeScratch/TryCompile-2ncd7w'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_606a8.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_7e5f5.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         Versi├│n de MSBuild 17.11.2+c078802d4 para .NET Framework
-        Compilaci├│n iniciada a las 17/12/2024 15:41:31.
+        Compilaci├│n iniciada a las 17/12/2024 21:18:15.
         
-        Proyecto "C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\AB_programacion\\prueba_AB_progra\\Proyecto_hospital\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zahy0x\\cmTC_606a8.vcxproj" en nodo 1 (destinos predeterminados).
+        Proyecto "C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\AB_programacion\\prueba_AB_progra\\Proyecto_hospital\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2ncd7w\\cmTC_7e5f5.vcxproj" en nodo 1 (destinos predeterminados).
         PrepareForBuild:
-          Creando directorio "cmTC_606a8.dir\\Debug\\".
+          Creando directorio "cmTC_7e5f5.dir\\Debug\\".
           La salida estructurada est├í habilitada. El formato del diagn├│stico del compilador reflejar├í la jerarqu├¡a de errores. Consulte https://aka.ms/cpp/structured-output para obtener m├ís detalles.
-          Creando directorio "C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\AB_programacion\\prueba_AB_progra\\Proyecto_hospital\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zahy0x\\Debug\\".
-          Creando directorio "cmTC_606a8.dir\\Debug\\cmTC_606a8.tlog\\".
+          Creando directorio "C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\AB_programacion\\prueba_AB_progra\\Proyecto_hospital\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2ncd7w\\Debug\\".
+          Creando directorio "cmTC_7e5f5.dir\\Debug\\cmTC_7e5f5.tlog\\".
         InitializeBuildStatus:
-          Se crear├í "cmTC_606a8.dir\\Debug\\cmTC_606a8.tlog\\unsuccessfulbuild" porque se especific├│ "AlwaysCreate".
-          Aplicando tarea Touch a "cmTC_606a8.dir\\Debug\\cmTC_606a8.tlog\\unsuccessfulbuild".
+          Se crear├í "cmTC_7e5f5.dir\\Debug\\cmTC_7e5f5.tlog\\unsuccessfulbuild" porque se especific├│ "AlwaysCreate".
+          Aplicando tarea Touch a "cmTC_7e5f5.dir\\Debug\\cmTC_7e5f5.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_606a8.dir\\Debug\\\\" /Fd"cmTC_606a8.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7e5f5.dir\\Debug\\\\" /Fd"cmTC_7e5f5.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c"
           Compilador de optimizaci├│n de C/C++ de Microsoft (R) versi├│n 19.41.34120 para x64
           (C) Microsoft Corporation. Todos los derechos reservados.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_606a8.dir\\Debug\\\\" /Fd"cmTC_606a8.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7e5f5.dir\\Debug\\\\" /Fd"cmTC_7e5f5.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c"
           CMakeCCompilerABI.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\AB_programacion\\prueba_AB_progra\\Proyecto_hospital\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zahy0x\\Debug\\cmTC_606a8.exe" /INCREMENTAL /ILK:"cmTC_606a8.dir\\Debug\\cmTC_606a8.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/danie/OneDrive/Documentos/GitHub/AB_programacion/prueba_AB_progra/Proyecto_hospital/build/CMakeFiles/CMakeScratch/TryCompile-zahy0x/Debug/cmTC_606a8.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/danie/OneDrive/Documentos/GitHub/AB_programacion/prueba_AB_progra/Proyecto_hospital/build/CMakeFiles/CMakeScratch/TryCompile-zahy0x/Debug/cmTC_606a8.lib" /MACHINE:X64  /machine:x64 cmTC_606a8.dir\\Debug\\CMakeCCompilerABI.obj
-          cmTC_606a8.vcxproj -> C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\AB_programacion\\prueba_AB_progra\\Proyecto_hospital\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zahy0x\\Debug\\cmTC_606a8.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\AB_programacion\\prueba_AB_progra\\Proyecto_hospital\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2ncd7w\\Debug\\cmTC_7e5f5.exe" /INCREMENTAL /ILK:"cmTC_7e5f5.dir\\Debug\\cmTC_7e5f5.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/danie/OneDrive/Documentos/GitHub/AB_programacion/prueba_AB_progra/Proyecto_hospital/build/CMakeFiles/CMakeScratch/TryCompile-2ncd7w/Debug/cmTC_7e5f5.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/danie/OneDrive/Documentos/GitHub/AB_programacion/prueba_AB_progra/Proyecto_hospital/build/CMakeFiles/CMakeScratch/TryCompile-2ncd7w/Debug/cmTC_7e5f5.lib" /MACHINE:X64  /machine:x64 cmTC_7e5f5.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_7e5f5.vcxproj -> C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\AB_programacion\\prueba_AB_progra\\Proyecto_hospital\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2ncd7w\\Debug\\cmTC_7e5f5.exe
         FinalizeBuildStatus:
-          Se eliminar├í el archivo "cmTC_606a8.dir\\Debug\\cmTC_606a8.tlog\\unsuccessfulbuild".
-          Aplicando tarea Touch a "cmTC_606a8.dir\\Debug\\cmTC_606a8.tlog\\cmTC_606a8.lastbuildstate".
-        Compilaci├│n del proyecto terminada "C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\AB_programacion\\prueba_AB_progra\\Proyecto_hospital\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zahy0x\\cmTC_606a8.vcxproj" (destinos predeterminados).
+          Se eliminar├í el archivo "cmTC_7e5f5.dir\\Debug\\cmTC_7e5f5.tlog\\unsuccessfulbuild".
+          Aplicando tarea Touch a "cmTC_7e5f5.dir\\Debug\\cmTC_7e5f5.tlog\\cmTC_7e5f5.lastbuildstate".
+        Compilaci├│n del proyecto terminada "C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\AB_programacion\\prueba_AB_progra\\Proyecto_hospital\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2ncd7w\\cmTC_7e5f5.vcxproj" (destinos predeterminados).
         
         Compilaci├│n correcta.
             0 Advertencia(s)
             0 Errores
         
-        Tiempo transcurrido 00:00:01.93
+        Tiempo transcurrido 00:00:00.58
         
       exitCode: 0
   -
@@ -210,8 +210,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/danie/OneDrive/Documentos/GitHub/AB_programacion/prueba_AB_progra/Proyecto_hospital/build/CMakeFiles/CMakeScratch/TryCompile-m709xe"
-      binary: "C:/Users/danie/OneDrive/Documentos/GitHub/AB_programacion/prueba_AB_progra/Proyecto_hospital/build/CMakeFiles/CMakeScratch/TryCompile-m709xe"
+      source: "C:/Users/danie/OneDrive/Documentos/GitHub/AB_programacion/prueba_AB_progra/Proyecto_hospital/build/CMakeFiles/CMakeScratch/TryCompile-cheo90"
+      binary: "C:/Users/danie/OneDrive/Documentos/GitHub/AB_programacion/prueba_AB_progra/Proyecto_hospital/build/CMakeFiles/CMakeScratch/TryCompile-cheo90"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -221,40 +221,40 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/danie/OneDrive/Documentos/GitHub/AB_programacion/prueba_AB_progra/Proyecto_hospital/build/CMakeFiles/CMakeScratch/TryCompile-m709xe'
+        Change Dir: 'C:/Users/danie/OneDrive/Documentos/GitHub/AB_programacion/prueba_AB_progra/Proyecto_hospital/build/CMakeFiles/CMakeScratch/TryCompile-cheo90'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_4ea0d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_74d36.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         Versi├│n de MSBuild 17.11.2+c078802d4 para .NET Framework
-        Compilaci├│n iniciada a las 17/12/2024 15:41:33.
+        Compilaci├│n iniciada a las 17/12/2024 21:18:16.
         
-        Proyecto "C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\AB_programacion\\prueba_AB_progra\\Proyecto_hospital\\build\\CMakeFiles\\CMakeScratch\\TryCompile-m709xe\\cmTC_4ea0d.vcxproj" en nodo 1 (destinos predeterminados).
+        Proyecto "C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\AB_programacion\\prueba_AB_progra\\Proyecto_hospital\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cheo90\\cmTC_74d36.vcxproj" en nodo 1 (destinos predeterminados).
         PrepareForBuild:
-          Creando directorio "cmTC_4ea0d.dir\\Debug\\".
+          Creando directorio "cmTC_74d36.dir\\Debug\\".
           La salida estructurada est├í habilitada. El formato del diagn├│stico del compilador reflejar├í la jerarqu├¡a de errores. Consulte https://aka.ms/cpp/structured-output para obtener m├ís detalles.
-          Creando directorio "C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\AB_programacion\\prueba_AB_progra\\Proyecto_hospital\\build\\CMakeFiles\\CMakeScratch\\TryCompile-m709xe\\Debug\\".
-          Creando directorio "cmTC_4ea0d.dir\\Debug\\cmTC_4ea0d.tlog\\".
+          Creando directorio "C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\AB_programacion\\prueba_AB_progra\\Proyecto_hospital\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cheo90\\Debug\\".
+          Creando directorio "cmTC_74d36.dir\\Debug\\cmTC_74d36.tlog\\".
         InitializeBuildStatus:
-          Se crear├í "cmTC_4ea0d.dir\\Debug\\cmTC_4ea0d.tlog\\unsuccessfulbuild" porque se especific├│ "AlwaysCreate".
-          Aplicando tarea Touch a "cmTC_4ea0d.dir\\Debug\\cmTC_4ea0d.tlog\\unsuccessfulbuild".
+          Se crear├í "cmTC_74d36.dir\\Debug\\cmTC_74d36.tlog\\unsuccessfulbuild" porque se especific├│ "AlwaysCreate".
+          Aplicando tarea Touch a "cmTC_74d36.dir\\Debug\\cmTC_74d36.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_4ea0d.dir\\Debug\\\\" /Fd"cmTC_4ea0d.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_74d36.dir\\Debug\\\\" /Fd"cmTC_74d36.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp"
           Compilador de optimizaci├│n de C/C++ de Microsoft (R) versi├│n 19.41.34120 para x64
           (C) Microsoft Corporation. Todos los derechos reservados.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_4ea0d.dir\\Debug\\\\" /Fd"cmTC_4ea0d.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_74d36.dir\\Debug\\\\" /Fd"cmTC_74d36.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp"
           CMakeCXXCompilerABI.cpp
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\AB_programacion\\prueba_AB_progra\\Proyecto_hospital\\build\\CMakeFiles\\CMakeScratch\\TryCompile-m709xe\\Debug\\cmTC_4ea0d.exe" /INCREMENTAL /ILK:"cmTC_4ea0d.dir\\Debug\\cmTC_4ea0d.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/danie/OneDrive/Documentos/GitHub/AB_programacion/prueba_AB_progra/Proyecto_hospital/build/CMakeFiles/CMakeScratch/TryCompile-m709xe/Debug/cmTC_4ea0d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/danie/OneDrive/Documentos/GitHub/AB_programacion/prueba_AB_progra/Proyecto_hospital/build/CMakeFiles/CMakeScratch/TryCompile-m709xe/Debug/cmTC_4ea0d.lib" /MACHINE:X64  /machine:x64 cmTC_4ea0d.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_4ea0d.vcxproj -> C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\AB_programacion\\prueba_AB_progra\\Proyecto_hospital\\build\\CMakeFiles\\CMakeScratch\\TryCompile-m709xe\\Debug\\cmTC_4ea0d.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\AB_programacion\\prueba_AB_progra\\Proyecto_hospital\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cheo90\\Debug\\cmTC_74d36.exe" /INCREMENTAL /ILK:"cmTC_74d36.dir\\Debug\\cmTC_74d36.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/danie/OneDrive/Documentos/GitHub/AB_programacion/prueba_AB_progra/Proyecto_hospital/build/CMakeFiles/CMakeScratch/TryCompile-cheo90/Debug/cmTC_74d36.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/danie/OneDrive/Documentos/GitHub/AB_programacion/prueba_AB_progra/Proyecto_hospital/build/CMakeFiles/CMakeScratch/TryCompile-cheo90/Debug/cmTC_74d36.lib" /MACHINE:X64  /machine:x64 cmTC_74d36.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_74d36.vcxproj -> C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\AB_programacion\\prueba_AB_progra\\Proyecto_hospital\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cheo90\\Debug\\cmTC_74d36.exe
         FinalizeBuildStatus:
-          Se eliminar├í el archivo "cmTC_4ea0d.dir\\Debug\\cmTC_4ea0d.tlog\\unsuccessfulbuild".
-          Aplicando tarea Touch a "cmTC_4ea0d.dir\\Debug\\cmTC_4ea0d.tlog\\cmTC_4ea0d.lastbuildstate".
-        Compilaci├│n del proyecto terminada "C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\AB_programacion\\prueba_AB_progra\\Proyecto_hospital\\build\\CMakeFiles\\CMakeScratch\\TryCompile-m709xe\\cmTC_4ea0d.vcxproj" (destinos predeterminados).
+          Se eliminar├í el archivo "cmTC_74d36.dir\\Debug\\cmTC_74d36.tlog\\unsuccessfulbuild".
+          Aplicando tarea Touch a "cmTC_74d36.dir\\Debug\\cmTC_74d36.tlog\\cmTC_74d36.lastbuildstate".
+        Compilaci├│n del proyecto terminada "C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\AB_programacion\\prueba_AB_progra\\Proyecto_hospital\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cheo90\\cmTC_74d36.vcxproj" (destinos predeterminados).
         
         Compilaci├│n correcta.
             0 Advertencia(s)
             0 Errores
         
-        Tiempo transcurrido 00:00:01.82
+        Tiempo transcurrido 00:00:00.56
         
       exitCode: 0
   -

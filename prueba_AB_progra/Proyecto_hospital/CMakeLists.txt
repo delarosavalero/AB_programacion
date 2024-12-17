@@ -1,19 +1,20 @@
-ï»¿# CMake mÃ­nimo requerido
+# CMake mínimo requerido
 cmake_minimum_required(VERSION 3.10)
 
 # Nombre de tu proyecto
-project(prueba_AB_progra)
+project(Proyecto_hospital)
 
-# Establecer el estÃ¡ndar de C++
-set(CMAKE_CXX_STANDARD 11)
-set(CMAKE_CXX_STANDARD_REQUIRED True)make
+# Establecer el estándar de C++
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED True)
 
-# AÃ±adir la carpeta 'src' y 'include' como directorios de bÃºsqueda
+# Añadir la carpeta 'src' y 'include' como directorios de búsqueda
 include_directories(include)
+file(GLOB SOURCES "src/*.cpp")
 
-# AÃ±adir los archivos fuente
+# Añadir los archivos fuente
 set(SOURCE_FILES
-    src/prueba_AB_progra.cpp
+    src/main.cpp
     src/Paciente.cpp
     src/Medico.cpp
     src/CitaMedica.cpp
@@ -21,7 +22,4 @@ set(SOURCE_FILES
 )
 
 # Crear el ejecutable final
-add_executable(prueba_AB_progra ${SOURCE_FILES})
-
-
-
+add_executable(Proyecto_hospital ${SOURCE_FILES})

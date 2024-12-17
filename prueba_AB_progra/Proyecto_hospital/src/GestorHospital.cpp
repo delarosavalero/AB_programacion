@@ -1,4 +1,10 @@
 #include "GestorHospital.hpp"
+#include "CitaMedica.hpp"
+#include "Paciente.hpp"
+#include "Medico.hpp"
+#include <iostream>
+#include <fstream>
+#include <string>
 
 void GestorHospital::registrarPaciente(string nombre, string id, string fecha) {
     listaPacientes.push_back(Paciente(nombre, id, fecha));
@@ -30,13 +36,13 @@ void GestorHospital::programarCita(string fecha, string idPaciente, string idMed
 
 void GestorHospital::listarPacientes() const {
     for (const auto& paciente : listaPacientes) {
-        paciente.mostrarInformacion();
+        cout << paciente.getNombre() << endl;
     }
 }
 
 void GestorHospital::listarMedicos() const {
     for (const auto& medico : listaMedicos) {
-        medico.mostrarInformacion();
+        cout << medico.getNombre() << endl;
     }
 }
 
@@ -87,9 +93,9 @@ void GestorHospital::recuperarSistema() {
 
     ifstream citaFile("data/citas.txt");
     while (citaFile.peek() != EOF) {
-        Cita cita = Cita::recuperarDatos(citaFile);
+        CitaMedica cita = CitaMedico::recuperarDatos(citaFile, listaPacientes, listaMedicos);
         if (!cita.getNombre().empty()) {
-            listaCita.push_back(Cita);
+            listaCitas.push_back(cita);
         }
     }
     citaFile.close();
