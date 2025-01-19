@@ -13,11 +13,13 @@ private:
     string especialidad;
     string identificacion;
     bool disponibilidad;
-    string getNombre() const;
 
 public:
-    Medico(string nom, string esp, string id);
+    Medico(string& nombre, string& especialidad, string& id);
 
+    string getNombre() const;
+
+    void modificarDatos(const string& nuevaEspecialidad);
     void asignarDisponibilidad(bool estado);
     void mostrarInformacion() const;
     bool verificarDisponibilidad() const;
@@ -26,4 +28,4 @@ public:
     static Medico recuperarDatos(ifstream& inFile);
 };
 
-#endif // MEDICO_HPP
+#endif 

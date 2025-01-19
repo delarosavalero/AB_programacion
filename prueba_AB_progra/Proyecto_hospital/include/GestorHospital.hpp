@@ -3,6 +3,7 @@
 
 #include <vector>
 #include <fstream>
+#include <iostream>
 #include "Paciente.hpp"
 #include "Medico.hpp"
 #include "CitaMedica.hpp"
@@ -16,9 +17,10 @@ private:
     vector<CitaMedica> listaCitas;
 
 public:
-    void registrarPaciente(string nombre, string id, string fecha);
-    void registrarMedico(string nombre, string especialidad, string id);
-    void programarCita(string fecha, string idPaciente, string idMedico, int prioridad);
+    void registrarPaciente(const string& nombre, const string& id, const string& fecha);
+    void registrarMedico(const string& nombre, const string& especialidad, const string& id);
+    void programarCita(const string& fecha, const string& idPaciente, const string& idMedico, int prioridad);
+    
     void listarPacientes() const;
     void listarMedicos() const;
     void listarCitas() const;

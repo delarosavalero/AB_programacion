@@ -36,19 +36,21 @@ void GestorHospital::programarCita(string fecha, string idPaciente, string idMed
 
 void GestorHospital::listarPacientes() const {
     for (const auto& paciente : listaPacientes) {
-        cout << paciente.getNombre() << endl;
+        cout << cita.getPaciente()->getNombre() << endl;;
     }
 }
 
 void GestorHospital::listarMedicos() const {
     for (const auto& medico : listaMedicos) {
-        cout << medico.getNombre() << endl;
+        cout << cita.getMedico()->getNombre() << endl;
+
     }
 }
 
 void GestorHospital::listarCitas() const {
     for (const auto& cita : listaCitas) {
-        cita.mostrarDetalles();
+        cout << "Paciente: " << cita.getPaciente()->getNombre() << endl;
+        cout << "Medico: " << cita.getMedico()->getNombre() << endl;
     }
 }
 
@@ -93,7 +95,7 @@ void GestorHospital::recuperarSistema() {
 
     ifstream citaFile("data/citas.txt");
     while (citaFile.peek() != EOF) {
-        CitaMedica cita = CitaMedico::recuperarDatos(citaFile, listaPacientes, listaMedicos);
+        CitaMedica cita = CitaMedica::recuperarDatos(citaFile, listaPacientes, listaMedicos);
         if (!cita.getNombre().empty()) {
             listaCitas.push_back(cita);
         }

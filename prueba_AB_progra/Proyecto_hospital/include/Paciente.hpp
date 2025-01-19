@@ -14,12 +14,15 @@ private:
     string identificacion;
     string fechaIngreso;
     vector<string> historialClinico;
-    string getNombre() const;
 
 public:
-    Paciente(string nom, string id, string fecha);
+    Paciente(const string& nombre, const string& id, const string& fecha);
 
-    void registrarHistorial(string evento);
+    string getNombre() const;
+    
+    void modificarDatos(const string& nuevoNombre, const string& nuevaFecha);
+    void registrarHistorial(const string& evento);
+    
     void mostrarInformacion() const;
     bool buscarPaciente(const string& criterio) const;
 

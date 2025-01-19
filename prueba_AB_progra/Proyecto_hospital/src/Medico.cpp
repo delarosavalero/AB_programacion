@@ -1,14 +1,9 @@
 #include "Medico.hpp"
 
-string Medico::getNombre() const
-{
-    return string();
-}
-
-Medico::Medico(string nom, string esp, string id)
+Medico::Medico(string& nom, string& esp, string& id)
     : nombre(nom), especialidad(esp), identificacion(id), disponibilidad(true) {}
 
-string Medico::getNombre() conts {
+string Medico::getNombre() const {
     return nombre;
 }
 
@@ -31,6 +26,8 @@ void Medico::guardarDatos(ofstream& outFile) const {
 Medico Medico::recuperarDatos(ifstream& inFile) {
     string nombre, especialidad, id;
     bool disponibilidad;
+
+
     getline(inFile, nombre, ',');
     getline(inFile, especialidad, ',');
     getline(inFile, id, ',');

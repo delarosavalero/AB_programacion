@@ -1,13 +1,14 @@
 #include "Paciente.hpp"
+#include <iostream>
 
-Paciente::Paciente(string nom, string id, string fecha)
+Paciente::Paciente(const string nom, const string id, const string fecha)
     : nombre(nom), identificacion(id), fechaIngreso(fecha) {}
 
 string Paciente::getNombre() const {
     return nombre;
 }
 
-void Paciente::registrarHistorial(string evento) {
+void Paciente::registrarHistorial(const string& evento) {
     historialClinico.push_back(evento);
 }
 
@@ -15,9 +16,9 @@ void Paciente::mostrarInformacion() const {
     cout << "Nombre: " << nombre << endl;
     cout << "ID: " << identificacion << endl;
     cout << "Fecha de Ingreso: " << fechaIngreso << endl;
-    cout << "Historial Clinico: " << endl;
+    cout << "\nHistorial Clinico:\n" << endl;
     for (const auto& evento : historialClinico) {
-        cout << "- " << evento << endl;
+        cout << "- " << evento << '\n' << endl;
     }
 }
 
