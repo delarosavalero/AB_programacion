@@ -1,27 +1,21 @@
-# CMakeList.txt: proyecto de CMake para AB_programacion, incluya el origen y defina
-# la lógica específica del proyecto aquí.
-#
-cmake_minimum_required (VERSION 3.8)
+cmake_minimum_required(VERSION 3.10)
+project(Proyecto_hospital)
 
-# Habilite Recarga activa para los compiladores de MSVC si se admiten.
-if (POLICY CMP0141)
-  cmake_policy(SET CMP0141 NEW)
-  set(CMAKE_MSVC_DEBUG_INFORMATION_FORMAT "$<IF:$<AND:$<C_COMPILER_ID:MSVC>,$<CXX_COMPILER_ID:MSVC>>,$<$<CONFIG:Debug,RelWithDebInfo>:EditAndContinue>,$<$<CONFIG:Debug,RelWithDebInfo>:ProgramDatabase>>")
-endif()
+# Establecer el estándar de C++
+set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-project ("prueba_AB_progra")
+# Establecer la ruta del proyecto
+set(PROJECT_ROOT "C:/Users/danie/OneDrive/Documentos/GitHub/AB_programacion/prueba_AB_progra/Proyecto_hospital")
 
-include_directories(${CMAKE_SOURCE_DIR} ../AB_programacion/include)
+# Añadir el directorio de includes
+include_directories(${PROJECT_ROOT}/include)
 
-# Agregue un origen al ejecutable de este proyecto.
-#add_executable (AB_programacion "main.cpp" "AB_programacion.h")
-add_executable(prueba_AB_progra
-    "${CMAKE_SOURCE_DIR}/src/main.cpp"
-    "${CMAKE_SOURCE_DIR}/src/Paciente.cpp"
-    "${CMAKE_SOURCE_DIR}/src/Medico.cpp"
-    "${CMAKE_SOURCE_DIR}/src/CitaMedica.cpp"
+# Obtener todos los archivos fuente
+file(GLOB SOURCES
+    "${PROJECT_ROOT}/src/*.cpp"
 )
 
-if (CMAKE_VERSION VERSION_GREATER 3.12)
-  set_property(TARGET prueba_AB_progra PROPERTY CXX_STANDARD 20)
-endif()
+# Crear el ejecutable
+add_executable(hospital ${SOURCES})
+

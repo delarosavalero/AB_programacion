@@ -1,42 +1,42 @@
-#include "CitaMedica.hpp"
-#include <iostream>
-#include <fstream>
+#include "CitaMedica.h"
 
-int CitaMedica::Identificacion = 1;
+CitaMedica::CitaMedica(std::string _id, Paciente* _paciente, Medico* _medico,
+    std::string _fechaHora, int _nivelUrgencia)
+    : id(_id), paciente(_paciente), medico(_medico),
+    fechaHora(_fechaHora), nivelUrgencia(_nivelUrgencia), completada(false) {}
 
-CitaMedica::CitaMedica(int IDPaciente, int IDMedico, const string& fechaCita, int nivel)
-    : ID(generarID()), IDPaciente(IDPaciente), IDMedico(IDMedico), fechaCita(fechaCita), nivel(nivel) {}
-
-void CitaMedica::mostrarCita() const {
-    cout << "ID: " << ID
-        << ", Paciente ID: " << IDPaciente
-        << ", Médico ID: " << IDMedico
-        << ", Fecha: " << fechaCita
-        << ", Nivel: " << nivel << endl;
+std::string CitaMedica::getId() const {
+    return id;
 }
 
-bool CitaMedica::validarFecha(const string& fecha) {
-    return fecha.size() == 10 && fecha[2] == '-' && fecha[5] == '-' &&
-        all_of(fecha.begin(), fecha.end(), [](char c, int i = 0) {
-        return (i == 2 || i == 5) ? c == '-' : isdigit(c);
-            });
+Paciente* CitaMedica::getPaciente() const {
+    return paciente;
 }
 
-bool CitaMedica::validarNivel(int nivel) {
-    return nivel >= 1 && nivel <= 10;
+Medico* CitaMedica::getMedico() const {
+    return medico;
 }
 
-bool CitaMedica::validarID(int ID, const vector<int>& lista) {
-    return find(lista.begin(), lista.end(), ID) != lista.end();
+std::string CitaMedica::getFechaHora() const {
+    return fechaHora;
 }
 
-int CitaMedica::generarID() {
-    return identificacion++;
+int CitaMedica::getNivelUrgencia() const {
+    return nivelUrgencia;
 }
 
-void CitaMedica::guardarCita(const CitaMedica& cita) {
-    ofstream archivo("citas.txt", ios::app);
-    if (archivo) {
-        archivo << cita.ID << ";" << cita.IDPaciente << ";" << cita.IDMedico << ";" << cita.fechaCita << ";" << cita.nivel << "\n";
-    }
+bool CitaMedica::estaCompletada() const {
+    return completada;
+}
+
+void CitaMedica::marcarComoCompletada() {
+    completada = true;
+}
+
+void CitaMedica::reprogramarCita(std::string nuevaFechaHora) {
+    fechaHora = nuevaFechaHora;
+}
+
+void CitaMedica::actualizarUrgencia(int nuevoNivel) {
+    nivelUrgencia = nuevoNivel;
 }

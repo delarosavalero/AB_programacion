@@ -3,24 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\AB_programacion\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\AB_programacion\\prueba_AB_progra\\Proyecto_hospital\\include\\CitaMedica.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:prueba_AB_progra\\Proyecto_hospital\\include\\CitaMedica.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\AB_programacion\\prueba_AB_progra\\Proyecto_hospital\\include\\main.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:prueba_AB_progra\\Proyecto_hospital\\include\\main.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\AB_programacion\\prueba_AB_progra\\Proyecto_hospital\\include\\Medico.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:prueba_AB_progra\\Proyecto_hospital\\include\\Medico.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\AB_programacion\\prueba_AB_progra\\Proyecto_hospital\\include\\Paciente.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:prueba_AB_progra\\Proyecto_hospital\\include\\Paciente.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\AB_programacion\\prueba_AB_progra\\Proyecto_hospital\\src\\CitaMedica.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:prueba_AB_progra\\Proyecto_hospital\\src\\CitaMedica.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\AB_programacion\\prueba_AB_progra\\Proyecto_hospital\\src\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:prueba_AB_progra\\Proyecto_hospital\\src\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\AB_programacion\\prueba_AB_progra\\Proyecto_hospital\\src\\Paciente.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -31,12 +15,24 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:prueba_AB_progra\\Proyecto_hospital\\src\\Medico.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\AB_programacion\\prueba_AB_progra\\Proyecto_hospital\\src\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:prueba_AB_progra\\Proyecto_hospital\\src\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\AB_programacion\\prueba_AB_progra\\Proyecto_hospital\\CMakeLists.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:prueba_AB_progra\\Proyecto_hospital\\CMakeLists.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\AB_programacion\\prueba_AB_progra\\Proyecto_hospital\\src\\CitaMedica.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:prueba_AB_progra\\Proyecto_hospital\\src\\CitaMedica.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\AB_programacion\\prueba_AB_progra\\Proyecto_hospital\\include\\CitaMedica.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:prueba_AB_progra\\Proyecto_hospital\\include\\CitaMedica.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\AB_programacion\\prueba_AB_progra\\Proyecto_hospital\\include\\Paciente.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:prueba_AB_progra\\Proyecto_hospital\\include\\Paciente.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\AB_programacion\\prueba_AB_progra\\Proyecto_hospital\\include\\Medico.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:prueba_AB_progra\\Proyecto_hospital\\include\\Medico.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,54 +54,54 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Paciente.hpp",
-              "DocumentMoniker": "C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\AB_programacion\\prueba_AB_progra\\Proyecto_hospital\\include\\Paciente.hpp",
-              "RelativeDocumentMoniker": "prueba_AB_progra\\Proyecto_hospital\\include\\Paciente.hpp",
-              "ToolTip": "C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\AB_programacion\\prueba_AB_progra\\Proyecto_hospital\\include\\Paciente.hpp",
-              "RelativeToolTip": "prueba_AB_progra\\Proyecto_hospital\\include\\Paciente.hpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-01-19T22:26:06.666Z",
+              "DocumentIndex": 0,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\AB_programacion\\prueba_AB_progra\\Proyecto_hospital\\src\\main.cpp",
+              "RelativeDocumentMoniker": "prueba_AB_progra\\Proyecto_hospital\\src\\main.cpp",
+              "ToolTip": "C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\AB_programacion\\prueba_AB_progra\\Proyecto_hospital\\src\\main.cpp",
+              "RelativeToolTip": "prueba_AB_progra\\Proyecto_hospital\\src\\main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-20T18:13:47.804Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Medico.hpp",
-              "DocumentMoniker": "C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\AB_programacion\\prueba_AB_progra\\Proyecto_hospital\\include\\Medico.hpp",
-              "RelativeDocumentMoniker": "prueba_AB_progra\\Proyecto_hospital\\include\\Medico.hpp",
-              "ToolTip": "C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\AB_programacion\\prueba_AB_progra\\Proyecto_hospital\\include\\Medico.hpp",
-              "RelativeToolTip": "prueba_AB_progra\\Proyecto_hospital\\include\\Medico.hpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-01-19T22:14:04.921Z",
+              "Title": "Medico.cpp",
+              "DocumentMoniker": "C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\AB_programacion\\prueba_AB_progra\\Proyecto_hospital\\src\\Medico.cpp",
+              "RelativeDocumentMoniker": "prueba_AB_progra\\Proyecto_hospital\\src\\Medico.cpp",
+              "ToolTip": "C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\AB_programacion\\prueba_AB_progra\\Proyecto_hospital\\src\\Medico.cpp",
+              "RelativeToolTip": "prueba_AB_progra\\Proyecto_hospital\\src\\Medico.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-20T18:21:32.263Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "main.hpp",
-              "DocumentMoniker": "C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\AB_programacion\\prueba_AB_progra\\Proyecto_hospital\\include\\main.hpp",
-              "RelativeDocumentMoniker": "prueba_AB_progra\\Proyecto_hospital\\include\\main.hpp",
-              "ToolTip": "C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\AB_programacion\\prueba_AB_progra\\Proyecto_hospital\\include\\main.hpp",
-              "RelativeToolTip": "prueba_AB_progra\\Proyecto_hospital\\include\\main.hpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-01-19T22:53:31.328Z",
+              "Title": "Paciente.cpp",
+              "DocumentMoniker": "C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\AB_programacion\\prueba_AB_progra\\Proyecto_hospital\\src\\Paciente.cpp",
+              "RelativeDocumentMoniker": "prueba_AB_progra\\Proyecto_hospital\\src\\Paciente.cpp",
+              "ToolTip": "C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\AB_programacion\\prueba_AB_progra\\Proyecto_hospital\\src\\Paciente.cpp",
+              "RelativeToolTip": "prueba_AB_progra\\Proyecto_hospital\\src\\Paciente.cpp",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-20T18:47:55.159Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CitaMedica.hpp",
-              "DocumentMoniker": "C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\AB_programacion\\prueba_AB_progra\\Proyecto_hospital\\include\\CitaMedica.hpp",
-              "RelativeDocumentMoniker": "prueba_AB_progra\\Proyecto_hospital\\include\\CitaMedica.hpp",
-              "ToolTip": "C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\AB_programacion\\prueba_AB_progra\\Proyecto_hospital\\include\\CitaMedica.hpp",
-              "RelativeToolTip": "prueba_AB_progra\\Proyecto_hospital\\include\\CitaMedica.hpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-01-19T21:57:00.901Z",
+              "DocumentIndex": 3,
+              "Title": "CMakeLists.txt",
+              "DocumentMoniker": "C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\AB_programacion\\prueba_AB_progra\\Proyecto_hospital\\CMakeLists.txt",
+              "RelativeDocumentMoniker": "prueba_AB_progra\\Proyecto_hospital\\CMakeLists.txt",
+              "ToolTip": "C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\AB_programacion\\prueba_AB_progra\\Proyecto_hospital\\CMakeLists.txt",
+              "RelativeToolTip": "prueba_AB_progra\\Proyecto_hospital\\CMakeLists.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-01-20T18:47:08.768Z",
               "EditorCaption": ""
             },
             {
@@ -116,61 +112,49 @@
               "RelativeDocumentMoniker": "prueba_AB_progra\\Proyecto_hospital\\src\\CitaMedica.cpp",
               "ToolTip": "C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\AB_programacion\\prueba_AB_progra\\Proyecto_hospital\\src\\CitaMedica.cpp",
               "RelativeToolTip": "prueba_AB_progra\\Proyecto_hospital\\src\\CitaMedica.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-01-19T22:34:08.625Z",
+              "WhenOpened": "2025-01-20T18:19:41.459Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Paciente.cpp",
-              "DocumentMoniker": "C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\AB_programacion\\prueba_AB_progra\\Proyecto_hospital\\src\\Paciente.cpp",
-              "RelativeDocumentMoniker": "prueba_AB_progra\\Proyecto_hospital\\src\\Paciente.cpp",
-              "ToolTip": "C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\AB_programacion\\prueba_AB_progra\\Proyecto_hospital\\src\\Paciente.cpp",
-              "RelativeToolTip": "prueba_AB_progra\\Proyecto_hospital\\src\\Paciente.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-01-19T22:45:24.715Z",
+              "Title": "CitaMedica.h",
+              "DocumentMoniker": "C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\AB_programacion\\prueba_AB_progra\\Proyecto_hospital\\include\\CitaMedica.h",
+              "RelativeDocumentMoniker": "prueba_AB_progra\\Proyecto_hospital\\include\\CitaMedica.h",
+              "ToolTip": "C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\AB_programacion\\prueba_AB_progra\\Proyecto_hospital\\include\\CitaMedica.h",
+              "RelativeToolTip": "prueba_AB_progra\\Proyecto_hospital\\include\\CitaMedica.h",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACAAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-19T21:57:00.901Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "Medico.cpp",
-              "DocumentMoniker": "C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\AB_programacion\\prueba_AB_progra\\Proyecto_hospital\\src\\Medico.cpp",
-              "RelativeDocumentMoniker": "prueba_AB_progra\\Proyecto_hospital\\src\\Medico.cpp",
-              "ToolTip": "C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\AB_programacion\\prueba_AB_progra\\Proyecto_hospital\\src\\Medico.cpp",
-              "RelativeToolTip": "prueba_AB_progra\\Proyecto_hospital\\src\\Medico.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-01-19T22:40:46.733Z",
+              "Title": "Paciente.h",
+              "DocumentMoniker": "C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\AB_programacion\\prueba_AB_progra\\Proyecto_hospital\\include\\Paciente.h",
+              "RelativeDocumentMoniker": "prueba_AB_progra\\Proyecto_hospital\\include\\Paciente.h",
+              "ToolTip": "C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\AB_programacion\\prueba_AB_progra\\Proyecto_hospital\\include\\Paciente.h",
+              "RelativeToolTip": "prueba_AB_progra\\Proyecto_hospital\\include\\Paciente.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-19T22:26:06.666Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "main.cpp",
-              "DocumentMoniker": "C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\AB_programacion\\prueba_AB_progra\\Proyecto_hospital\\src\\main.cpp",
-              "RelativeDocumentMoniker": "prueba_AB_progra\\Proyecto_hospital\\src\\main.cpp",
-              "ToolTip": "C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\AB_programacion\\prueba_AB_progra\\Proyecto_hospital\\src\\main.cpp",
-              "RelativeToolTip": "prueba_AB_progra\\Proyecto_hospital\\src\\main.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-01-19T17:18:00.935Z",
+              "Title": "Medico.h",
+              "DocumentMoniker": "C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\AB_programacion\\prueba_AB_progra\\Proyecto_hospital\\include\\Medico.h",
+              "RelativeDocumentMoniker": "prueba_AB_progra\\Proyecto_hospital\\include\\Medico.h",
+              "ToolTip": "C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\AB_programacion\\prueba_AB_progra\\Proyecto_hospital\\include\\Medico.h",
+              "RelativeToolTip": "prueba_AB_progra\\Proyecto_hospital\\include\\Medico.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-19T22:14:04.921Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "CMakeLists.txt",
-              "DocumentMoniker": "C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\AB_programacion\\prueba_AB_progra\\Proyecto_hospital\\CMakeLists.txt",
-              "RelativeDocumentMoniker": "prueba_AB_progra\\Proyecto_hospital\\CMakeLists.txt",
-              "ToolTip": "C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\AB_programacion\\prueba_AB_progra\\Proyecto_hospital\\CMakeLists.txt",
-              "RelativeToolTip": "prueba_AB_progra\\Proyecto_hospital\\CMakeLists.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-01-19T22:57:37.257Z"
             }
           ]
         }

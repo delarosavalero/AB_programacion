@@ -1,0 +1,10 @@
+^C:\USERS\DANIE\ONEDRIVE\DOCUMENTOS\GITHUB\AB_PROGRAMACION\PRUEBA_AB_PROGRA\PROYECTO_HOSPITAL\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/danie/OneDrive/Documentos/GitHub/AB_programacion/prueba_AB_progra/Proyecto_hospital -BC:/Users/danie/OneDrive/Documentos/GitHub/AB_programacion/prueba_AB_progra/Proyecto_hospital/build --check-stamp-file C:/Users/danie/OneDrive/Documentos/GitHub/AB_programacion/prueba_AB_progra/Proyecto_hospital/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

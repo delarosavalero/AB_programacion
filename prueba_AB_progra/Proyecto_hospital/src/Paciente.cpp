@@ -1,37 +1,37 @@
-#include "Paciente.hpp"
+#include "Paciente.h"
 #include <iostream>
 #include <fstream>
 
-int Paciente::Identificacion = 1;
+Paciente::Paciente(std::string _id, std::string _nombre, std::string _fechaNacimiento)
+    : id(_id), nombre(_nombre), fechaNacimiento(_fechaNacimiento) {}
 
-Paciente::Paciente(const string& nombre, const string& fechaIngreso)
-    : ID(generarID()), nombre(nombre), fechaIngreso(fechaIngreso) {}
-
-
-void Paciente::mostrarPaciente() const {
-    cout << "ID: " << ID
-        << ", Nombre: " << nombre
-        << ", Fecha de Ingreso: " << fechaIngreso << endl;
+std::string Paciente::getId() const {
+    return id;
 }
 
-bool Paciente::validarFecha(const string& fecha) {
-    return fecha.size() == 10 && fecha[2] == '-' && fecha[5] == '-' &&
-        all_of(fecha.begin(), fecha.end(), [](char c, int i = 0) {
-        return (i == 2 || i == 5) ? c == '-' : isdigit(c);
-            });
+std::string Paciente::getNombre() const {
+    return nombre;
 }
 
-bool Paciente::validarNombre(const string& nombre) {
-    return !nombre.empty();
+std::string Paciente::getFechaNacimiento() const {
+    return fechaNacimiento;
 }
 
-int Paciente::generarID() {
-    return Identificacion++;
+std::string Paciente::getHistoriaMedica() const {
+    return historiaMedica;
 }
 
-void Paciente::guardarPaciente(const Paciente& paciente) {
-    ofstream archivo("pacientes.txt", ios::app);
-    if (archivo) {
-        archivo << paciente.getID() << ";" << paciente.getNombre() << ";" << paciente.getFechaIngreso() << "\n";
+void Paciente::actualizarInformacionPersonal(std::string nuevoNombre, std::string nuevaFechaNacimiento) {
+    nombre = nuevoNombre;
+    fechaNacimiento = nuevaFechaNacimiento;
+}
+
+void Paciente::agregarRegistroMedico(std::string registro) {
+    historiaMedica += registro + "\n";
+}
+
+void Paciente::buscarPorNombre(const std::string& nombre) const {
+    if (this->nombre.find(nombre) != std::string::npos) {
+        this->mostrarPaciente();
     }
 }
