@@ -1,37 +1,35 @@
 #include "Medico.hpp"
+#include <fstream>
+#include <iostream>
 
-Medico::Medico(string& nom, string& esp, string& id)
-    : nombre(nom), especialidad(esp), identificacion(id), disponibilidad(true) {}
+int Medico::Identificacion = 1;
 
-string Medico::getNombre() const {
-    return nombre;
+Medico::Medico(const string& nombre, const string& especialidad, bool vacante)
+    : ID(generarID()), nombre(nombre), especialidad(especialidad), vacante(vacante) {}
+
+void Medico::mostrarMedico() const {
+    cout << "ID: " << ID
+        << ", Nombre: " << nombre
+        << ", Especialidad: " << especialidad
+        << ", Vacante: " << (vacante ? "Si" : "No")
+        << endl;
 }
 
-void Medico::asignarDisponibilidad(bool estado) {
-    disponibilidad = estado;
+bool Medico::validarNombre(const string& nombre) {
+    return !nombre.empty();
 }
 
-void Medico::mostrarInformacion() const {
-    cout << "Nombre: " << nombre << ", Especialidad: " << especialidad << ", ID: " << identificacion << endl;
+bool Medico::validarEspecialidad(const string& especialidad) {
+    return !especialidad.empty();
 }
 
-bool Medico::verificarDisponibilidad() const {
-    return disponibilidad;
+int Medico::generarIdentificacion() {
+    return Identificacion++;
 }
 
-void Medico::guardarDatos(ofstream& outFile) const {
-    outFile << nombre << "," << especialidad << "," << identificacion << "," << disponibilidad << endl;
-}
-
-Medico Medico::recuperarDatos(ifstream& inFile) {
-    string nombre, especialidad, id;
-    bool disponibilidad;
-
-
-    getline(inFile, nombre, ',');
-    getline(inFile, especialidad, ',');
-    getline(inFile, id, ',');
-    inFile >> disponibilidad;
-    inFile.ignore(); 
-    return Medico(nombre, especialidad, id);
+void Medico::guardarMedico(const Medico& medico) {
+    ofstream archivo("medicos.txt", ios::app);
+    if (archivo) {
+        archivo << medico.getID() << ";" << medico.getNombre() << ";" << medico.getEspecialidad() << ";" << (medico.getVacante() ? "Si" : "No") << "\n";
+    }
 }

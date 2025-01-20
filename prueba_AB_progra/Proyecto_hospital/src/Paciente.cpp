@@ -1,49 +1,37 @@
 #include "Paciente.hpp"
 #include <iostream>
+#include <fstream>
 
-Paciente::Paciente(const string nom, const string id, const string fecha)
-    : nombre(nom), identificacion(id), fechaIngreso(fecha) {}
+int Paciente::Identificacion = 1;
 
-string Paciente::getNombre() const {
-    return nombre;
+Paciente::Paciente(const string& nombre, const string& fechaIngreso)
+    : ID(generarID()), nombre(nombre), fechaIngreso(fechaIngreso) {}
+
+
+void Paciente::mostrarPaciente() const {
+    cout << "ID: " << ID
+        << ", Nombre: " << nombre
+        << ", Fecha de Ingreso: " << fechaIngreso << endl;
 }
 
-void Paciente::registrarHistorial(const string& evento) {
-    historialClinico.push_back(evento);
+bool Paciente::validarFecha(const string& fecha) {
+    return fecha.size() == 10 && fecha[2] == '-' && fecha[5] == '-' &&
+        all_of(fecha.begin(), fecha.end(), [](char c, int i = 0) {
+        return (i == 2 || i == 5) ? c == '-' : isdigit(c);
+            });
 }
 
-void Paciente::mostrarInformacion() const {
-    cout << "Nombre: " << nombre << endl;
-    cout << "ID: " << identificacion << endl;
-    cout << "Fecha de Ingreso: " << fechaIngreso << endl;
-    cout << "\nHistorial Clinico:\n" << endl;
-    for (const auto& evento : historialClinico) {
-        cout << "- " << evento << '\n' << endl;
+bool Paciente::validarNombre(const string& nombre) {
+    return !nombre.empty();
+}
+
+int Paciente::generarID() {
+    return Identificacion++;
+}
+
+void Paciente::guardarPaciente(const Paciente& paciente) {
+    ofstream archivo("pacientes.txt", ios::app);
+    if (archivo) {
+        archivo << paciente.getID() << ";" << paciente.getNombre() << ";" << paciente.getFechaIngreso() << "\n";
     }
-}
-
-bool Paciente::buscarPaciente(const string& criterio) const {
-    return nombre == criterio || identificacion == criterio;
-}
-
-void Paciente::guardarDatos(ofstream& outFile) const {
-    outFile << nombre << "," << identificacion << "," << fechaIngreso << endl;
-    for (const auto& evento : historialClinico) {
-        outFile << evento << endl;
-    }
-}
-
-Paciente Paciente::recuperarDatos(ifstream& inFile) {
-    string nombre, id, fecha;
-    getline(inFile, nombre, ',');
-    getline(inFile, id, ',');
-    getline(inFile, fecha);
-    Paciente paciente(nombre, id, fecha);
-    string evento;
-    while (getline(inFile, evento)) {
-        if (!evento.empty()) {
-            paciente.registrarHistorial(evento);
-        }
-    }
-    return paciente;
 }

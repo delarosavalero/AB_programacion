@@ -1,33 +1,50 @@
 #ifndef CITAMEDICA_HPP
 #define CITAMEDICA_HPP
 
+
 #include <string>
-#include <fstream>
+#include<iostream>
+#include<vector>
 #include "Paciente.hpp"
 #include "Medico.hpp"
 
-using namespace std;
-
 class CitaMedica {
 private:
-    string fecha;
-    Paciente* paciente;
-    Medico* medico;
-    int prioridad;
+    int ID;                 
+    int IDPaciente;         
+    int IDMedico;           
+    string fechaCita;  
+    int nivel;              
+    static int Identificacion;         
 
 public:
-    CitaMedica(const string& fecha, Paciente* paciente, Medico* medico, int prioridad);
+    
+    CitaMedica() : ID(0), IDPaciente(0), IDMedico(0), fechaCita(""), nivel(0) {}
 
-    Paciente* getPaciente() const;
-    Medico* getMedico() const;
+    
+    CitaMedica(int IDPaciente, int IDMedico, const string& fechaCita, int nivel);
 
-    void cancelarCita();
-    void modificarCita(const string& nuevaFecha, int nuevaPrioridad);
-    static bool compararPorFecha(const CitaMedica& a, const CitaMedica& b);
+    
+    void mostrarCita() const;
 
-    void mostrarDetalles() const;
-    void guardarDatos(ofstream& outFile) const;
-    static CitaMedica recuperarDatos(ifstream& inFile, vector<Paciente>& pacientes, vector<Medico>& medicos);
+    
+    int getID() const { return ID; }
+    int getIDPaciente() const { return IDPaciente; }
+    int getIDMedico() const { return IDMedico; }
+    string getFechaCita() const { return fechaCita; }
+    int getNivel() const { return nivel; }
+
+  
+    void setIDPaciente(int nuevoIDPaciente) { IDPaciente = nuevoIDPaciente; }
+    void setIDMedico(int nuevoIDMedico) { IDMedico = nuevoIDMedico; }
+    void setFecha(const string& nuevaFecha) { fechaCita = nuevaFecha; }
+    void setNivel(int nuevoNivel) { nivel = nuevoNivel; }
+
+    
+    static int generarIdentificacion();
+
+    static void guardarCita(const CitaMedica& citaMedica);
+
 };
 
-#endif 
+#endif

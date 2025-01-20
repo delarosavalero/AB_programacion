@@ -1,3 +1,3 @@
-C:/Users/danie/OneDrive/Documentos/GitHub/AB_programacion/prueba_AB_progra/Proyecto_hospital/build/CMakeFiles/Proyecto_hospital.dir
+C:/Users/danie/OneDrive/Documentos/GitHub/AB_programacion/prueba_AB_progra/Proyecto_hospital/build/CMakeFiles/prueba_AB_progra.dir
 C:/Users/danie/OneDrive/Documentos/GitHub/AB_programacion/prueba_AB_progra/Proyecto_hospital/build/CMakeFiles/ALL_BUILD.dir
 C:/Users/danie/OneDrive/Documentos/GitHub/AB_programacion/prueba_AB_progra/Proyecto_hospital/build/CMakeFiles/ZERO_CHECK.dir

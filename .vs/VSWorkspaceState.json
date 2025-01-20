@@ -5,11 +5,11 @@
     "\\prueba_AB_progra\\Proyecto_hospital",
     "\\prueba_AB_progra\\Proyecto_hospital\\build",
     "\\prueba_AB_progra\\Proyecto_hospital\\build\\CMakeFiles",
-    "\\prueba_AB_progra\\Proyecto_hospital\\build\\CMakeFiles\\3.29.5-msvc4",
+    "\\prueba_AB_progra\\Proyecto_hospital\\build\\CMakeFiles\\3.31.2",
     "\\prueba_AB_progra\\Proyecto_hospital\\data",
     "\\prueba_AB_progra\\Proyecto_hospital\\include",
     "\\prueba_AB_progra\\Proyecto_hospital\\src"
   ],
-  "SelectedNode": "\\prueba_AB_progra\\Proyecto_hospital\\include\\Medico.hpp",
+  "SelectedNode": "\\prueba_AB_progra\\Proyecto_hospital\\include\\CitaMedica.hpp",
   "PreviewInSolutionExplorer": false
 }

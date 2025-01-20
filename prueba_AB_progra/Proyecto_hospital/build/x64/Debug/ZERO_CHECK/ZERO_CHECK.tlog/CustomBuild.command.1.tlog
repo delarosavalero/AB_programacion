@@ -1,6 +1,6 @@
 ^C:\USERS\DANIE\ONEDRIVE\DOCUMENTOS\GITHUB\AB_PROGRAMACION\PRUEBA_AB_PROGRA\PROYECTO_HOSPITAL\BUILD\CMAKEFILES\7D925E48FE4BD9A8C07A2D7D2ADCA0BB\GENERATE.STAMP.RULE
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/danie/OneDrive/Documentos/GitHub/AB_programacion/prueba_AB_progra/Proyecto_hospital -BC:/Users/danie/OneDrive/Documentos/GitHub/AB_programacion/prueba_AB_progra/Proyecto_hospital/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/danie/OneDrive/Documentos/GitHub/AB_programacion/prueba_AB_progra/Proyecto_hospital/build/Proyecto_hospital.sln
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/danie/OneDrive/Documentos/GitHub/AB_programacion/prueba_AB_progra/Proyecto_hospital -BC:/Users/danie/OneDrive/Documentos/GitHub/AB_programacion/prueba_AB_progra/Proyecto_hospital/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/danie/OneDrive/Documentos/GitHub/AB_programacion/prueba_AB_progra/Proyecto_hospital/build/prueba_AB_progra.sln
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

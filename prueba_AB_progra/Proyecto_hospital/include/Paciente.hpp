@@ -2,7 +2,6 @@
 #define PACIENTE_HPP
 
 #include <string>
-#include <vector>
 #include <fstream>
 #include <iostream>
 
@@ -10,24 +9,28 @@ using namespace std;
 
 class Paciente {
 private:
+    int ID;
     string nombre;
-    string identificacion;
     string fechaIngreso;
-    vector<string> historialClinico;
+    static int Identificacion;
 
 public:
-    Paciente(const string& nombre, const string& id, const string& fecha);
+    Paciente() : ID(0), nombre(""), fechaIngreso("") {}
 
-    string getNombre() const;
+    Paciente(const string& nombre, const string& fechaIngreso);
     
-    void modificarDatos(const string& nuevoNombre, const string& nuevaFecha);
-    void registrarHistorial(const string& evento);
-    
-    void mostrarInformacion() const;
-    bool buscarPaciente(const string& criterio) const;
+    void mostrarPaciente() const;
 
-    void guardarDatos(ofstream& outFile) const;
-    static Paciente recuperarDatos(ifstream& inFile);
+    int getID() const { return ID; }
+    bool validarFecha(const string& fecha);
+    bool validarNombre(const string& nombre);
+
+    void setNombre(const string& nuevoNombre) { nombre = nuevoNombre; }
+    void setFechaIngreso(const string& nuevaFecha) { fechaIngreso = nuevaFecha; }
+
+    static int generarID();
+
+    static void guardarPaciente(const Paciente& paciente);
 };
 
 #endif 

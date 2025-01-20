@@ -9,23 +9,34 @@ using namespace std;
 
 class Medico {
 private:
+    int ID;
     string nombre;
     string especialidad;
-    string identificacion;
-    bool disponibilidad;
+    static int identificacion;
+    bool vacante;
 
 public:
-    Medico(string& nombre, string& especialidad, string& id);
+    Medico() : ID(0), nombre(""), especialidad(""), vacante(false) {}
+    
+    Medico(const string& nombre, const string& especialidad, const string& bool vacante);
 
-    string getNombre() const;
+    void mostrarMedico() const;
 
-    void modificarDatos(const string& nuevaEspecialidad);
-    void asignarDisponibilidad(bool estado);
-    void mostrarInformacion() const;
-    bool verificarDisponibilidad() const;
+    int getID() const { return ID; }
+    string getNombre() const { return nombre; }
+    string getEspecialidad() const { return especialidad; }
+    bool getVacante() const { return vacante; };
 
-    void guardarDatos(ofstream& outFile) const;
-    static Medico recuperarDatos(ifstream& inFile);
+    bool validarNombre(const string& nombre);
+    bool validarVacante(const string& vacante);
+
+    void setNombre(const string& nuevoNombre) { nombre = nuevoNombre; }
+    void setEspecialidad(const string& nuevaEspecialidad) { especialidad = nuevaEspecialidad; }
+    void setVacante(const bool nuevaVacante) { vacante = nuevaVacante; }
+
+    static int generarIdentificacion();
+
+    static void guardarMedico(const Medico& medico);
 };
 
 #endif 
